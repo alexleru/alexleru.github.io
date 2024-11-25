@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Обратная связь | Спедепозитарий Сириус</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Спедепозитарий Сириус</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="services.html">Услуги</a></li>
+          <li><a href="about.html">О компании</a></li>
+          <li><a href="contact.html">Контакты</a></li>
+          <li><a href="feedback.html" class="active">Обратная связь</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="feedback">
+      <div class="container" style="padding: 20px;">
+        <h2>Обратная связь</h2>
+        <p>Мы всегда рады получить ваши отзывы и вопросы. Пожалуйста, заполните форму ниже, и мы свяжемся с вами в ближайшее время.</p>
+        <form action="/submit_feedback" method="post" enctype="multipart/form-data" style="margin-top: 20px;">
+          <div class="form-group" style="margin-bottom: 15px;">
+            <label for="name">ФИО:</label><br>
+            <input type="text" id="name" name="name" required style="width: 100%; padding: 10px;">
+          </div>
+          <div class="form-group" style="margin-bottom: 15px;">
+            <label for="phone">Номер телефона:</label><br>
+            <input type="tel" id="phone" name="phone" required style="width: 100%; padding: 10px;">
+          </div>
+          <div class="form-group" style="margin-bottom: 15px;">
+            <label for="email">Электронная почта:</label><br>
+            <input type="email" id="email" name="email" required style="width: 100%; padding: 10px;">
+          </div>
+          <div class="form-group" style="margin-bottom: 15px;">
+            <label for="message">Содержание сообщения:</label><br>
+            <textarea id="message" name="message" rows="5" required style="width: 100%; padding: 10px;"></textarea>
+          </div>
+          <div class="form-group" style="margin-bottom: 15px;">
+            <label for="file">Прикрепить файл:</label><br>
+            <input type="file" id="file" name="file" style="width: 100%; padding: 10px;">
+          </div>
+          <button type="submit" style="padding: 10px 20px; background-color: #003366; color: white; border: none; cursor: pointer;">Отправить</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p style="padding: 20px 0;">&copy; 2024 Спедепозитарий Сириус</p>
+  </footer>
+</body>
+</html>
