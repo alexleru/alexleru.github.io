@@ -27,7 +27,7 @@ header {
 
 header h1 {
   margin: 0;
-  text-align: center;
+  text-align: left;
   position: relative;
   display: inline-block;
 }
@@ -74,7 +74,7 @@ main {
 
 h2 {
   font-size: 2em;
-  text-align: center;
+  text-align: left;
   margin-bottom: 20px;
   color: #003366;
   border-bottom: 2px solid #003366;
@@ -84,7 +84,7 @@ h2 {
 
 p {
   font-size: 1.1em;
-  text-align: center;
+  text-align: left;
   margin-bottom: 20px;
 }
 
@@ -141,7 +141,7 @@ button[type="submit"]:hover {
 footer {
   background: #003366;
   color: #ffffff;
-  text-align: center;
+  text-align: left;
   padding: 20px 0;
   margin-top: 40px;
 }
