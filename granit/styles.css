@@ -1,20 +1,20 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #FAFAFA;
-    color: #212121;
+    background-color: rgb(255, 248, 246);
+    color: rgb(35, 25, 23);
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #6200EA;
-    color: #FFFFFF;
+    background-color: rgb(143, 76, 56);
+    color: rgb(255, 255, 255);
     padding: 20px;
     text-align: center;
 }
 
 nav {
-    background-color: #3700B3;
+    background-color: rgb(119, 87, 78);
     padding: 15px;
 }
 
@@ -31,7 +31,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #FFFFFF;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: bold;
 }
@@ -49,7 +49,7 @@ section {
 }
 
 h2 {
-    color: #6200EA;
+    color: rgb(143, 76, 56);
 }
 
 table {
@@ -59,7 +59,7 @@ table {
 }
 
 table, th, td {
-    border: 1px solid #6200EA;
+    border: 1px solid rgb(133, 115, 110);
 }
 
 th, td {
@@ -68,17 +68,17 @@ th, td {
 }
 
 th {
-    background-color: #6200EA;
-    color: #FFFFFF;
+    background-color: rgb(143, 76, 56);
+    color: rgb(255, 255, 255);
 }
 
 td {
-    background-color: #EDE7F6;
+    background-color: rgb(245, 222, 216);
 }
 
 footer {
-    background-color: #6200EA;
-    color: #FFFFFF;
+    background-color: rgb(143, 76, 56);
+    color: rgb(255, 255, 255);
     padding: 20px;
     text-align: center;
     margin-top: 40px;
@@ -94,16 +94,16 @@ footer p {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #3700B3;
-    color: #FFFFFF;
+    background-color: rgb(119, 87, 78);
+    color: rgb(255, 255, 255);
     padding: 15px;
     text-align: center;
     display: none;
 }
 
 #cookie-consent button {
-    background-color: #03DAC5;
-    color: #212121;
+    background-color: rgb(108, 93, 47);
+    color: rgb(255, 255, 255);
     border: none;
     padding: 10px 20px;
     margin-left: 10px;
@@ -112,7 +112,7 @@ footer p {
 }
 
 #cookie-consent button:hover {
-    background-color: #018786;
+    background-color: rgb(216, 197, 141);
 }
 
 /* Add the HTML for the cookie consent popup */
