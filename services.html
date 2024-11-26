@@ -5,50 +5,55 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Услуги | Спедепозитарий Сириус</title>
   <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="icon" type="image/webp" href="assets/images/logo.webp">
 </head>
 <body>
   <header>
-    <div class="container">
-      <h1>Спедепозитарий Сириус</h1>
+    <div class="container header-container">
+      <div class="logo-container">
+        <img src="assets/images/logo.webp" alt="Логотип Спедепозитарий Сириус" class="logo">
+        <h1>Спедепозитарий Сириус</h1>
+      </div>
       <nav>
-        <ul>
+        <ul class="nav-list">
           <li><a href="index.html">Главная</a></li>
           <li><a href="services.html" class="active">Услуги</a></li>
           <li><a href="about.html">О компании</a></li>
           <li><a href="contact.html">Контакты</a></li>
-          <li><a href="feedback.html"">Обратная связь</a></li>
+          <li><a href="feedback.html">Обратная связь</a></li>
         </ul>
       </nav>
     </div>
   </header>
   <main>
     <section class="services">
-      <div class="container" style="padding: 20px;">
+      <div class="container services-container">
         <h2>Наши услуги</h2>
-        <p>Мы предлагаем широкий спектр услуг для наших клиентов. Наша команда профессионалов всегда готова помочь вам.</p>
-        <div class="service-list" style="margin-top: 20px;">
-          <div class="service-item" style="margin-bottom: 20px;">
-            <h3>Консультационные услуги</h3>
-            <p>Предоставляем консультации по вопросам спедепозитарной деятельности и управлению активами.</p>
-          </div>
-          <div class="service-item" style="margin-bottom: 20px;">
-            <h3>Документооборот и хранение</h3>
-            <p>Организация безопасного хранения документов и их надлежащего учета в соответствии с требованиями законодательства.</p>
-          </div>
-          <div class="service-item" style="margin-bottom: 20px;">
-            <h3>Управление рисками</h3>
-            <p>Помогаем минимизировать риски и разработать стратегию управления активами для повышения их сохранности.</p>
-          </div>
-          <div class="service-item" style="margin-bottom: 20px;">
-            <h3>Отчетность и аналитика</h3>
-            <p>Предоставляем полные отчеты и аналитические данные для принятия взвешенных решений.</p>
-          </div>
-        </div>
+        <ul class="services-list">
+          <li><strong>Депозитарное обслуживание</strong></li>
+          <li><strong>Обслуживание инвестиционных фондов</strong>
+            <ul class="sub-services-list">
+              <li>Специализированный регистратор</li>
+              <li>Специализированный депозитарий</li>
+            </ul>
+          </li>
+          <li><strong>Обслуживание НПФ</strong>
+            <ul class="sub-services-list">
+              <li>Обслуживание пенсионных накоплений</li>
+              <li>Обслуживание пенсионных резервов</li>
+            </ul>
+          </li>
+          <li><strong>Брокерское обслуживание</strong></li>
+          <li><strong>Обслуживание СРО</strong></li>
+          <li><strong>Электронный документооборот</strong></li>
+        </ul>
       </div>
     </section>
   </main>
   <footer>
-    <p style="padding: 20px 0;">&copy; 2024 Спедепозитарий Сириус</p>
+    <div class="container footer-container">
+      <p>&copy; 2024 Спедепозитарий Сириус. Все права защищены.</p>
+    </div>
   </footer>
 </body>
 </html>
