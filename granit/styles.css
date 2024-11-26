@@ -1,20 +1,20 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(255, 248, 246);
-    color: rgb(35, 25, 23);
+    background-color: rgb(245, 245, 245);
+    color: rgb(33, 33, 33);
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: rgb(143, 76, 56);
+    background-color: rgb(33, 33, 33);
     color: rgb(255, 255, 255);
     padding: 20px;
     text-align: center;
 }
 
 nav {
-    background-color: rgb(119, 87, 78);
+    background-color: rgb(66, 66, 66);
     padding: 15px;
 }
 
@@ -37,6 +37,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
+    color: rgb(255, 112, 67);
     text-decoration: underline;
 }
 
@@ -49,7 +50,7 @@ section {
 }
 
 h2 {
-    color: rgb(143, 76, 56);
+    color: rgb(255, 112, 67);
 }
 
 table {
@@ -59,7 +60,7 @@ table {
 }
 
 table, th, td {
-    border: 1px solid rgb(133, 115, 110);
+    border: 1px solid rgb(97, 97, 97);
 }
 
 th, td {
@@ -68,16 +69,16 @@ th, td {
 }
 
 th {
-    background-color: rgb(143, 76, 56);
+    background-color: rgb(33, 33, 33);
     color: rgb(255, 255, 255);
 }
 
 td {
-    background-color: rgb(245, 222, 216);
+    background-color: rgb(224, 224, 224);
 }
 
 footer {
-    background-color: rgb(143, 76, 56);
+    background-color: rgb(33, 33, 33);
     color: rgb(255, 255, 255);
     padding: 20px;
     text-align: center;
@@ -94,7 +95,7 @@ footer p {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgb(119, 87, 78);
+    background-color: rgb(66, 66, 66);
     color: rgb(255, 255, 255);
     padding: 15px;
     text-align: center;
@@ -102,8 +103,8 @@ footer p {
 }
 
 #cookie-consent button {
-    background-color: rgb(108, 93, 47);
-    color: rgb(255, 255, 255);
+    background-color: rgb(255, 112, 67);
+    color: rgb(33, 33, 33);
     border: none;
     padding: 10px 20px;
     margin-left: 10px;
@@ -112,7 +113,7 @@ footer p {
 }
 
 #cookie-consent button:hover {
-    background-color: rgb(216, 197, 141);
+    background-color: rgb(255, 138, 101);
 }
 
 /* Add the HTML for the cookie consent popup */
