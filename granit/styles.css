@@ -1,20 +1,20 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #FFF9F0;
-    color: #333;
+    font-family: 'Roboto', sans-serif;
+    background-color: #FAFAFA;
+    color: #212121;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #FFAA33;
-    color: #fff;
+    background-color: #6200EA;
+    color: #FFFFFF;
     padding: 20px;
     text-align: center;
 }
 
 nav {
-    background-color: #D2691E;
+    background-color: #3700B3;
     padding: 15px;
 }
 
@@ -31,7 +31,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #FFFFFF;
     text-decoration: none;
     font-weight: bold;
 }
@@ -49,7 +49,7 @@ section {
 }
 
 h2 {
-    color: #D2691E;
+    color: #6200EA;
 }
 
 table {
@@ -59,7 +59,7 @@ table {
 }
 
 table, th, td {
-    border: 1px solid #D2691E;
+    border: 1px solid #6200EA;
 }
 
 th, td {
@@ -68,17 +68,17 @@ th, td {
 }
 
 th {
-    background-color: #FFAA33;
-    color: #fff;
+    background-color: #6200EA;
+    color: #FFFFFF;
 }
 
 td {
-    background-color: #FFF5E1;
+    background-color: #EDE7F6;
 }
 
 footer {
-    background-color: #FFAA33;
-    color: #fff;
+    background-color: #6200EA;
+    color: #FFFFFF;
     padding: 20px;
     text-align: center;
     margin-top: 40px;
@@ -94,16 +94,16 @@ footer p {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #D2691E;
-    color: #fff;
+    background-color: #3700B3;
+    color: #FFFFFF;
     padding: 15px;
     text-align: center;
     display: none;
 }
 
 #cookie-consent button {
-    background-color: #FFAA33;
-    color: #fff;
+    background-color: #03DAC5;
+    color: #212121;
     border: none;
     padding: 10px 20px;
     margin-left: 10px;
@@ -112,7 +112,7 @@ footer p {
 }
 
 #cookie-consent button:hover {
-    background-color: #FFA500;
+    background-color: #018786;
 }
 
 /* Add the HTML for the cookie consent popup */
