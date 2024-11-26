@@ -1,20 +1,20 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(250, 250, 250);
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(245, 245, 245));
     color: rgb(50, 50, 50);
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: rgb(80, 80, 80);
+    background: linear-gradient(to right, rgb(80, 80, 80), rgb(100, 100, 100));
     color: rgb(255, 255, 255);
     padding: 20px;
     text-align: center;
 }
 
 nav {
-    background-color: rgb(110, 110, 110);
+    background: linear-gradient(to right, rgb(110, 110, 110), rgb(130, 130, 130));
     padding: 15px;
 }
 
@@ -69,7 +69,7 @@ th, td {
 }
 
 th {
-    background-color: rgb(80, 80, 80);
+    background: linear-gradient(to bottom, rgb(80, 80, 80), rgb(100, 100, 100));
     color: rgb(255, 255, 255);
 }
 
@@ -78,7 +78,7 @@ td {
 }
 
 footer {
-    background-color: rgb(80, 80, 80);
+    background: linear-gradient(to right, rgb(80, 80, 80), rgb(100, 100, 100));
     color: rgb(255, 255, 255);
     padding: 20px;
     text-align: center;
@@ -95,7 +95,7 @@ footer p {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgb(110, 110, 110);
+    background: linear-gradient(to top, rgb(110, 110, 110), rgb(130, 130, 130));
     color: rgb(255, 255, 255);
     padding: 15px;
     text-align: center;
@@ -115,3 +115,9 @@ footer p {
 #cookie-consent button:hover {
     background-color: rgb(255, 185, 150);
 }
+
+/* Add the HTML for the cookie consent popup */
+<div id="cookie-consent">
+    Этот сайт использует файлы cookie для обеспечения удобства использования. 
+    <button id="cookie-consent-button">Согласен</button>
+</div>
