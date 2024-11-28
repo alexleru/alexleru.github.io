@@ -76,10 +76,13 @@ main {
   margin-left: 20px;
 }
 
+/* Стили для таблицы с раскрытием информации */
 .disclosure-table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 20px;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .disclosure-table th,
@@ -91,6 +94,7 @@ main {
 
 .disclosure-table th {
   background-color: #f0f0f0;
+  font-weight: bold;
 }
 
 /* Стили для футера */
