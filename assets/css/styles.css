@@ -83,6 +83,7 @@ main {
   margin-top: 20px;
   border-radius: 10px;
   overflow: hidden;
+  background-color: #333333;
 }
 
 .disclosure-table th,
@@ -90,10 +91,11 @@ main {
   border: 1px solid #333;
   padding: 10px;
   text-align: left;
+  color: #ffffff;
 }
 
 .disclosure-table th {
-  background-color: #f0f0f0;
+  background-color: #383838; /* Чуть темнее, чем основной фон таблицы */
   font-weight: bold;
 }
 
