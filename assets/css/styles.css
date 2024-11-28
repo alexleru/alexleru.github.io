@@ -38,6 +38,7 @@ header {
   width: 50px;
   height: auto;
   margin-right: 10px;
+  border-radius: 15px;
 }
 
 nav ul {
@@ -55,7 +56,8 @@ nav ul li a {
   transition: color 0.3s;
 }
 
-nav ul li a:hover, nav ul li a.active {
+nav ul li a:hover,
+nav ul li a.active {
   color: #66ccff;
 }
 
@@ -64,38 +66,31 @@ main {
   padding: 40px 0;
 }
 
-.hero {
-  background: linear-gradient(90deg, #003366, #0059b3);
-  color: #ffffff;
-  padding: 60px 20px;
-  text-align: center;
+/* Стили для секции disclosure */
+.disclosure-container {
+  padding: 20px;
 }
 
-.hero h2 {
-  font-size: 2.5em;
-  margin-bottom: 20px;
+.disclosure-list {
+  list-style-type: disc;
+  margin-left: 20px;
 }
 
-.hero p {
-  font-size: 1.2em;
-  max-width: 800px;
-  margin: 0 auto;
+.disclosure-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
 }
 
-.hero a {
-  display: inline-block;
-  margin-top: 30px;
-  padding: 15px 30px;
-  background-color: #ffffff;
-  color: #003366;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 5px;
-  transition: background 0.3s, color 0.3s;
+.disclosure-table th,
+.disclosure-table td {
+  border: 1px solid #333;
+  padding: 10px;
+  text-align: left;
 }
 
-.hero a:hover {
-  background-color: #e6e6e6;
+.disclosure-table th {
+  background-color: #f0f0f0;
 }
 
 /* Стили для футера */
@@ -107,7 +102,7 @@ footer {
   margin-top: 40px;
 }
 
-footer p {
+.footer-container p {
   margin: 0;
 }
 
@@ -128,17 +123,9 @@ footer p {
     gap: 10px;
   }
 
-  .hero h2 {
-    font-size: 2em;
-  }
-
-  .hero p {
-    font-size: 1em;
-  }
-
-  .hero a {
-    padding: 10px 20px;
-    font-size: 1em;
+  .disclosure-table th,
+  .disclosure-table td {
+    font-size: 0.9em;
   }
 }
 
@@ -151,20 +138,8 @@ footer p {
     width: 35px;
   }
 
-  nav ul {
-    align-items: flex-start;
+  .disclosure-table th,
+  .disclosure-table td {
+    font-size: 0.8em;
   }
-
-  .hero h2 {
-    font-size: 1.8em;
-  }
-
-  .hero p {
-    font-size: 0.9em;
-  }
-
-  .hero a {
-    padding: 8px 15px;
-    font-size: 0.9em;
-  }
-} 
+}
