@@ -83,19 +83,19 @@ main {
   margin-top: 20px;
   border-radius: 10px;
   overflow: hidden;
-  background-color: #333333;
+  background-color: #ffffff; /* Светлый фон таблицы */
 }
 
 .disclosure-table th,
 .disclosure-table td {
-  border: 1px solid #333;
+  border: 1px solid #ddd; /* Светлая граница */
   padding: 10px;
   text-align: left;
-  color: #ffffff;
+  color: #333; /* Темный текст */
 }
 
 .disclosure-table th {
-  background-color: #383838; /* Чуть темнее, чем основной фон таблицы */
+  background-color: #f0f0f0; /* Чуть темнее фон для заголовков */
   font-weight: bold;
 }
 
