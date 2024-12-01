@@ -99,20 +99,14 @@ main {
   font-weight: bold;
 }
 
-/* Стили для футера */
-footer {
-  background: #003366;
-  color: #ffffff;
-  padding: 20px 0;
-  text-align: center;
-  margin-top: 40px;
+/* Стили для iframe с картой */
+.responsive-map {
+  width: 100%;
+  height: 400px; /* начальная высота */
+  max-width: 100%;
+  border: none;
 }
 
-.footer-container p {
-  margin: 0;
-}
-
-/* Стили для мобильных устройств */
 @media (max-width: 768px) {
   .header-container {
     flex-direction: column;
@@ -133,6 +127,11 @@ footer {
   .disclosure-table td {
     font-size: 0.9em;
   }
+
+  /* Изменение размера карты для среднего экрана */
+  .responsive-map {
+    height: 300px; /* Уменьшаем высоту на меньших экранах */
+  }
 }
 
 @media (max-width: 480px) {
@@ -147,5 +146,10 @@ footer {
   .disclosure-table th,
   .disclosure-table td {
     font-size: 0.8em;
+  }
+
+  /* Изменение размера карты для небольшого экрана */
+  .responsive-map {
+    height: 250px; /* Еще меньше высота для маленьких экранов */
   }
 }
