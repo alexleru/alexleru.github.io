@@ -15,6 +15,35 @@ body {
   padding: 0 20px;
 }
 
+.services-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.services-list > li {
+  margin-bottom: 20px;
+}
+
+.documents-list,
+.sub-services-list,
+.documents-sublist {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.documents-list a,
+.documents-sublist a {
+  text-decoration: none;
+  color: #003366;
+  font-weight: bold;
+}
+
+.documents-list a:hover,
+.documents-sublist a:hover {
+  color: #0059b3;
+}
+
+
 /* Стили для шапки сайта */
 header {
   background: linear-gradient(90deg, #003366, #0059b3);
